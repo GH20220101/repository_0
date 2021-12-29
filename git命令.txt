@@ -17,3 +17,25 @@
 查看远程仓库	git remote
 ssh协议  注册公钥私钥	ssh-keygen -t rsa -C "邮箱地址"
 捕抓公钥	cat   // cat id_rsa.pub
+
+Git 和 Github
+git remote add origin git@github.com:GH20220101/repository_0.git
+// 给本地仓库添加一个远程仓库
+	ssh-keygen -t rsa -C "邮箱地址"
+	// ssh  注册公钥私钥   输入后一直回车即可
+	//  进入存放公钥私钥的目录  cd c/Users/毗耶娑/.ssh
+	// 复制公钥
+	// Github：  Setting -> SSH and GPG keys -> new SSH key
+	// title可不填  公钥粘贴入 key 中
+
+ssh -T git@github.com
+// 建立连接  输入yes
+
+git branch -M main
+// 估计是新建一个分支 main
+git push -u origin main
+// 推送
+
+
+
+
