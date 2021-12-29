@@ -1,0 +1,19 @@
+作用	命令
+查看Git版本	git --version
+创建名字为git_0的目录	mkdir git_0
+进入名字为git_0的目录	cd git_0
+查看当前目录的内容	ls - al
+初始化当前目录	git init
+配置	git config
+配置用户名	git config --global user.name "name_0"
+配置用户邮箱	git config --global user.email "真实邮箱地址"
+查看配置信息	git config --global --list
+清空屏幕	clear
+查看状态	git status
+查看当前完整目录(window不完整)	pwd
+添加至暂存区	git add  (git add .   //add全部)
+提交Git仓库	git commit -m "注释"
+查看提交历史	git log
+查看远程仓库	git remote
+ssh协议  注册公钥私钥	ssh-keygen -t rsa -C "邮箱地址"
+捕抓公钥	cat   // cat id_rsa.pub
